@@ -1,0 +1,60 @@
+div{
+  background: orange;
+  margin: 100px;
+  
+}
+.g1{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  transition: all 3s cubic-bezier(0.39, 0.575, 0.565, 1) 0.3s;}
+  .g1:hover{
+  transform: rotate(660deg);
+  margin-top: 0px;
+}
+.g2{
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  background: red;
+  top: 5px;
+  left: 0;
+  right: 0;
+  border-radius: 50%;
+}
+.g3{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top:20px;
+  left:100px;
+  background: black;
+  border-radius: 50%;
+}
+.g4{
+  position:absolute;
+  background: orange;
+  width: 300px;
+  height: 200px;
+  left:80px;
+  top:150px;
+  border-radius: 0px 0px 100px 100px;
+  box-shadow: inset 10px 0 20px raba(0,0,0, 0.1);
+  z-index: -1;
+}
+.g5{
+position:absolute;
+  background: linear-gradient(to bottom, #FD9C36 0%, #FCBE5C 80%);
+  width: 200px;
+  height: 100px;
+  left:200px;
+  top:200px;
+  border-radius: 0px 0px 100px 100px;
+  box-shadow: inset 0px 0 20px raba(0,0,0, 0.1);
+  z-index: -1;
+  transition: all 2s cubic-bezier(1, 0, 0, 1) 0.2s;
+}
+.g5:hover{
+  transform: rotate(660deg);
+  margin-top: 0px;
+}
